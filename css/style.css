@@ -72,6 +72,7 @@ header nav .right a:hover{
 }
 header nav {
     padding:2rem 0;
+
 }
 header nav .branding{
     color:var(--pure);
