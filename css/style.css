@@ -10,7 +10,7 @@
 
 body{
     font-family:'Poppins',sans-serif;
-    max-width:1500px;
+    /* max-width:1500px; */
 }
 
 html{
@@ -103,7 +103,10 @@ header nav .branding{
 .hero .right h1 span{
     color:var(--primary);
 }
-
+.span2{
+    color:white;
+    display: inline;
+}
 .hero .right {
     margin-bottom: 150px;
     margin-left:190px;
@@ -130,6 +133,11 @@ section.about h3{
     font-size: 1rem;
     margin-bottom:1rem;
     font-weight: 400;
+}
+a{
+   color: var(--primary);
+    /* text-decoration: none; */
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .links{
     align-items: center;
