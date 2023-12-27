@@ -20,6 +20,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var cards = document.querySelectorAll(".card");
+
+        cards.forEach(function (card) {
+            card.addEventListener("click", function () {
+                var link = card.querySelector("a");
+                if (link) {
+                    window.location.href = link.href;
+                }
+            });
+        });
+    });
+</script>
+
 <body>
     <div class="site-main-wrapper">
         <div class="hamname"></div>
@@ -85,13 +100,17 @@
                     <h1>About <span>Me</span></h1>
                     <h3>Hello! I'm Tanmya Vishvakarma.</h3>
                     <p>
-                        A Software Developer whose primary job is to put MONEY back in your wallet. 
-                        From architecting backend solutions for top-tier pharmaceutical retailers to leading frontend development in Canada, I thrive on crafting tech solutions that make an impact. A passionate techie, I drive change through projects like "ReBorn Batteries," using machine learning to reduce electronic waste. With a knack for innovation showcased in projects like "Cricket Code" and "React Iphone Preview," I bring a blend of expertise and enthusiasm. Let's build something amazing together!s
+                        A Software Developer whose primary job is to put MONEY back in your wallet.
+                        From architecting backend solutions for top-tier pharmaceutical retailers to leading frontend
+                        development in Canada, I thrive on crafting tech solutions that make an impact. A passionate
+                        techie, I drive change through projects like "ReBorn Batteries," using machine learning to
+                        reduce electronic waste. With a knack for innovation showcased in projects like "Cricket Code"
+                        and "React Iphone Preview," I bring a blend of expertise and enthusiasm. Let's build something
+                        amazing together!s
 
                     </p>
                     <div class="social">
-                        <a href="https://github.com/tanmay-flyy"><img src="./images/iconmonstr-github-1.svg"
-                                alt=""></a>
+                        <a href="https://github.com/tanmay-flyy"><img src="./images/iconmonstr-github-1.svg" alt=""></a>
                         <a href="https://in.linkedin.com/in/tanmya-vishvakarma-360601153"><img
                                 src="./images/iconmonstr-linkedin-3.svg" alt=""></a>
                         <a href="https://tanmyavishvakarma.medium.com/"><img src="./images/iconmonstr-medium-1.svg  "
@@ -128,11 +147,6 @@
                     Cloud Computing
                     Infrastructure - International Research Journal of Engineering and Technology
                 </a>
-
-
-
-
-
             </div>
         </section>
 
@@ -309,8 +323,7 @@
                     </div>
                 </form>
                 <div class="links flex-1 items-center justify-centre">
-                    <a href="https://github.com/tanmay-flyy"><img src="./images/iconmonstr-github-1.svg"
-                            alt=""></a>
+                    <a href="https://github.com/tanmay-flyy"><img src="./images/iconmonstr-github-1.svg" alt=""></a>
                     <a href="https://in.linkedin.com/in/tanmya-vishvakarma-360601153"><img
                             src="./images/iconmonstr-linkedin-3.svg" alt=""></a>
                     <a href="https://tanmyavishvakarma.medium.com/"><img src="./images/iconmonstr-medium-1.svg  "
